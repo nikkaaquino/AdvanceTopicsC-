@@ -1,0 +1,14 @@
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\bin\Debug\WinFormUI.exe.config
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\bin\Debug\WinFormUI.exe
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\bin\Debug\WinFormUI.pdb
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\bin\Debug\DemoLibrary.dll
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\bin\Debug\DemoLibrary.pdb
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.Dashboard.resources
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.Transactions.resources
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.csproj.CopyComplete
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.exe
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\Events\WinFormUI\obj\Debug\WinFormUI.pdb
