@@ -1,0 +1,10 @@
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\bin\Debug\DemoLibrary.dll
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\bin\Debug\DemoLibrary.pdb
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\obj\Debug\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\DIP\ConsoleUI\obj\Debug\ConsoleUI.pdb
