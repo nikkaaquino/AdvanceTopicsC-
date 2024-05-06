@@ -1,0 +1,6 @@
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\OCP\OCPLibrary\bin\Debug\OCPLibrary.dll
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\OCP\OCPLibrary\bin\Debug\OCPLibrary.pdb
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\OCP\OCPLibrary\obj\Debug\OCPLibrary.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\OCP\OCPLibrary\obj\Debug\OCPLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\OCP\OCPLibrary\obj\Debug\OCPLibrary.dll
+C:\Users\user\Documents\GitHub\AdvanceTopicsC-\OCP\OCPLibrary\obj\Debug\OCPLibrary.pdb
