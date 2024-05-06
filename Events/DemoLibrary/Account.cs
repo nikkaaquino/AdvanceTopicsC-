@@ -9,7 +9,7 @@ namespace DemoLibrary
     public class Account
     {
         public event EventHandler<string> TransactionApprovedEvent;
-        public event EventHandler<decimal> OverdraftEvent;
+        public event EventHandler<OverdraftEventArgs> OverdraftEvent;
         public string AccountName { get; set; }
         public decimal Balance { get; private set; }
 
@@ -22,7 +22,7 @@ namespace DemoLibrary
 
         public bool AddDeposit(string depositName, decimal amount)
         {
-            _transactions.Add($"Deposited { string.Format("{0:C2}", amount) } for { depositName }");
+            _transactions.Add($"Deposited {string.Format("{0:C2}", amount)} for {depositName}");
             Balance += amount;
             TransactionApprovedEvent?.Invoke(this, depositName);
             return true;
@@ -33,7 +33,7 @@ namespace DemoLibrary
             // Ensures we have enough money
             if (Balance >= amount)
             {
-                _transactions.Add($"Withdrew { string.Format("{0:C2}", amount) } for { paymentName }");
+                _transactions.Add($"Withdrew {string.Format("{0:C2}", amount)} for {paymentName}");
                 Balance -= amount;
                 TransactionApprovedEvent?.Invoke(this, paymentName);
                 return true;
@@ -46,9 +46,20 @@ namespace DemoLibrary
                     // Checks to see if we have enough money in the backup account
                     if ((backupAccount.Balance + Balance) >= amount)
                     {
+                        
                         // We have enough backup funds so transfar the amount to this account
                         // and then complete the transaction.
                         decimal amountNeeded = amount - Balance;
+
+                        OverdraftEventArgs args = new OverdraftEventArgs(amountNeeded, "Extra Info");
+                        OverdraftEvent?.Invoke(this, args);
+
+                        if(args.CancelTransaction == true)
+                        {
+                            return false;
+                        }
+
+
                         bool overdraftSucceeded = backupAccount.MakePayment("Overdraft Protection", amountNeeded);
 
                         // This should always be true but we will check anyway
@@ -60,10 +71,10 @@ namespace DemoLibrary
 
                         AddDeposit("Overdraft Protection Deposit", amountNeeded);
 
-                        _transactions.Add($"Withdrew { string.Format("{0:C2}", amount) } for { paymentName }");
+                        _transactions.Add($"Withdrew {string.Format("{0:C2}", amount)} for {paymentName}");
                         Balance -= amount;
                         TransactionApprovedEvent?.Invoke(this, paymentName);
-                        OverdraftEvent?.Invoke(this, amountNeeded);
+                        
 
                         return true;
                     }
